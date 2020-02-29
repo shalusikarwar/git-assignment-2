@@ -1,0 +1,53 @@
+
+shalu sikarwar@LAPTOP-RM8RO02P MINGW64 ~/Desktop/git repo (master)
+$ git init
+Initialized empty Git repository in C:/Users/shalu sikarwar/Desktop/git repo/.git/
+
+shalu sikarwar@LAPTOP-RM8RO02P MINGW64 ~/Desktop/git repo (master)
+$ git add .
+
+shalu sikarwar@LAPTOP-RM8RO02P MINGW64 ~/Desktop/git repo (master)
+$ git commit -m "add one file"
+[master (root-commit) 12f6150] add one file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 shalu.txt
+
+shalu sikarwar@LAPTOP-RM8RO02P MINGW64 ~/Desktop/git repo (master)
+$ git rm shalu.txt
+rm 'shalu.txt'
+shalu sikarwar@LAPTOP-RM8RO02P MINGW64 ~/Desktop/git repo (master)
+$ touch nishi.log
+
+shalu sikarwar@LAPTOP-RM8RO02P MINGW64 ~/Desktop/git repo (master)
+$ touch shivi.log
+
+shalu sikarwar@LAPTOP-RM8RO02P MINGW64 ~/Desktop/git repo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    shalu.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        bhavna
+        commit
+        nishi.log
+        shivi.log
+
+
+shalu sikarwar@LAPTOP-RM8RO02P MINGW64 ~/Desktop/git repo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    shalu.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        bhavna
+        commit
+
+
